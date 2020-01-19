@@ -1,154 +1,271 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Progate</title>
-    <link rel="stylesheet" href="stylesheet.css">
+* {
+  ボックスサイズ：ボーダーボックス;
+}
 
+体 {
+  マージン：0;
+  フォントファミリー：「ひらぎの角ゴシックProN」;
+}
 
-    <script src="https://kit.fontawesome.com/d813f9f6c2.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
+{
+  テキスト装飾：なし;
+}
 
-<header>
-<div class="header-left">
+.container {
+  幅：100％;
+  パディング：0 15px;
+  マージン：0自動;
+}
 
+.top-wrapper {
+  パディング：180px 0 100px 0;
+  背景画像：url（top.png）;
+  背景サイズ：カバー;
+  色：白;
+  text-align：center;
+}
 
-  <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-</div>
-<div class="header-right">
-  <a class="login">ログイン</a>
+.top-wrapper h1 {
+  不透明度：0.7;
+  フォントサイズ：45px;
+  文字間隔：5px;
+}
 
-</div>
-</header>
-<div class="main-wrapper">
-  <div class="main-container">
-<div class="text">
+.top-wrapper p {
+  不透明度：0.7;
+  フォントサイズ：16px;
+  余白：40ピクセル;
+}
 
+.btn-wrapper {
+  text-align：center;
+}
 
-    <h1>LEARN TO CODE.</h1>
-        <h1>LEARN TO BE CREATIVE.</h1>
-        <p>Progateはオンラインプログラミング学習サービスです。</p>
-        <p>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-</div>
+.btn-wrapper p {
+  余白：20ピクセル;
+}
 
-<div class="icon">
-  <a href="#" class="btn signup">新規登録はこちら</a>
-          <p>or sign up with</p>
-          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-</div>
-  </div>
+。サインアップ {
+  背景色：＃239b76;
+}
 
-</div>
-<div class="icon-wrapper">
+。フェイスブック {
+  背景色：＃3b5998;
+  マージン右：10px;
+}
 
-  <div class="icon-container">
+。ツイッター {
+  背景色：＃55acee;
+}
 
-    <div class="icon-header">
-      <h2>Learn Where to Get Started</h2>
+.btn {
+  パディング：8px 24px;
+  色：白;
+  表示：インラインブロック。
+  不透明度：0.8;
+  ボーダー半径：4px;
+  text-align：center;
+}
 
-    </div>
-    <div class="lessons">
-      <div class="lesson">
-        <div class="icon2">
-        <img src="https://prog-8.com/images/html/advanced/html.png" >
-<p class="name">HTML & CSS</p>
+.btn：hover {
+  不透明度：1;
+}
 
-</div>
-<p class="text3">
-  ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。
-</p>
+.fa {
+  マージン右：5px;
+}
 
-    </div>
-    <div class="lesson">
-      <div class="icon2">
-<img src="https://prog-8.com/images/html/advanced/jQuery.png"  >
-<p class="name">jQuery</p>
+ヘッダー{
+  高さ：65px;
+  幅：100％;
+  背景色：rgba（34,49,52,0.9）;
+  位置：固定;
+  top：0;
+  z-index：10;
+}
 
-</div>
-<p class="text3">
-  ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。
-</p>
-    </div>
-    <div class="lesson">
-<div class="icon2">
+.logo {
+  幅：124px;
+  マージン上部：20px;
+}
 
-    <img src="https://prog-8.com/images/html/advanced/ruby.png">
-  <p class="name">
-    Ruby
-  </p>
+.header-left {
+  float：左;
+}
 
-</div>
+.header-right {
+  float：右;
+  マージン右：-25px;
+}
 
-<p class="text3">
-  ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。
-</p>
+.header-right a {
+  行の高さ：65px;
+  パディング：0 25px;
+  色：白;
+  表示ブロック;
+  float：左;
+  遷移：すべて0.5秒。
+}
 
-</div>
-<div class="lesson">
-<div class="icon2">
+.header-right a：hover {
+  背景色：rgba（255,255,255,0.3）;
+}
 
+.lesson-wrapper {
+  高さ：580px;
+  padding-bottom：80px;
+  左詰め：5％;
+  右詰め：5％;
+  背景色：＃f7f7f7;
+  text-align：center;
+}
 
-  <img src="https://prog-8.com/images/html/advanced/php.png" >
-<p class="name">
-  php
-</p>
+.heading {
+  パディングトップ：80px;
+  padding-bottom：50px;
+  色：＃5f5d60;
+}
 
-</div>
-<p class="text3">
-  ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。
-</p>
-</div>
-    </div>
+.heading h2 {
+  フォントの太さ：通常;
+}
 
-  </div>
-</div>
-<footer>
-  <div class="f-container">
-       <div class="heading">
-         <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
+。レッスン {
+  float：左;
+  幅：25％;
+}
 
-       <h3>Let's learn to code, learn to be creative!</h3>
-     </div>
-       <a href="https://www.amazon.co.jp/ref=nav_logo">fwefew</a>
+.lesson-icon {
+  位置：相対;
+}
 
+.lesson-icon p {
+  位置：絶対;
+  トップ：37％;
+  幅：100％;
+  色：白;
+}
 
+.text-contents {
+  幅：80％;
+  表示：インラインブロック。
+  マージン上部：15px;
+  フォントサイズ：13px;
+  色：＃b3aeb5;
+}
 
-   </div>
-</footer>
-<div class="z">
-  <div class="x">
-    <div class="c">
-      <div class="item blue">
+.heading h3 {
+  フォントの太さ：通常;
+}
 
-      </div>
-    </div>
-    <div class="c">
-      <div class="item red">
+.message-wrapper {
+  border-bottom：1px solid #eee;
+  padding-bottom：80px;
+  text-align：center;
+}
 
-      </div>
-    </div>
-    <div class="c">
-      <div class="item yellow">
+.message {
+  パディング：15px 40px;
+  背景色：＃5dca88;
+  カーソル：ポインター。
+  box-shadow：0px 7px＃1a7940;
+}
 
-      </div>
-    </div>
-  </div>
-</div>
-<div class="ji">
+.message：active {
+  位置：相対;
+  上：7px;
+  box-shadow：none;
+}
 
-  <div class="ko">
-    <div class="lo">
+フッターimg {
+  幅：125px;
+}
 
-    </div>
-    ]<div class="lo">
+フッターp {
+  色：＃b3aeb5;
+  フォントサイズ：12px;
+}
 
-    </div>
-    <h5 class="lo">fefgwergwg</h5>
-  </div>
-</div>
+フッター{
+  パディングトップ：30px;
+  padding-bottom：20px;
+}
 
-  </body>
+.menu-icon {
+  色：白;
+  float：右;
+  フォントサイズ：25px;
+  パディング：21px 0;
+  ディスプレイ：なし;
+}
 
-</html>
+。晴れ {
+  クリア：左。
+}
+
+@media allおよび（max-width：1000px）{
+  。レッスン {
+    幅：50％;
+    余白：50ピクセル;
+  }
+
+  .lesson-wrapper {
+    高さ：990px​​;
+  }
+
+  フッター{
+    text-align：center;
+  }
+}
+
+@media allおよび（max-width：750px）{
+  .top-wrapper h1 {
+    フォントサイズ：32px;
+  }
+
+  .heading h2 {
+    フォントサイズ：20px;
+  }
+}
+
+@media allおよび（max-width：670px）{
+  .header-right {
+    ディスプレイ：なし;
+  }
+
+  .menu-icon {
+    表示ブロック;
+  }
+
+  .top-wrapper .btn {
+    幅：100％;
+  }
+
+  。ツイッター {
+    マージン上部：10px;
+  }
+
+  .top-wrapper {
+    テキスト揃え：左;
+  }
+
+  .top-wrapper h1 {
+    フォントサイズ：24px;
+  }
+
+  .top-wrapper p {
+    フォントサイズ：14px;
+  }
+
+  。レッスン {
+    幅：100％;
+  }
+
+  .lesson-wrapper {
+    高さ：1700px;
+  }
+
+  .message-wrapper .btn {
+    幅：100％;
+  }
+}
